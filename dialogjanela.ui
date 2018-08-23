@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogJanela</class>
+ <widget class="QDialog" name="DialogJanela">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>280</width>
+    <height>216</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="pretratamentos">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>251</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Escolha tipo de prétratamento:</string>
+   </property>
+   <widget class="QRadioButton" name="normal">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>111</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Normal</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="canonico">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>121</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Canônico</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="completo">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>161</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Completo</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="idiomas">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>120</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Escolha Idioma:</string>
+   </property>
+   <widget class="QRadioButton" name="ingles">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>91</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Inglês</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="portugues">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>111</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Português</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="cancelar">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>180</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancelar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="inicio">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>180</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Iniciar</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
